@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+  font-weight: 400;
+  font-style: normal;
+  background-color: hsl(0, 0%, 12%);
+  color: white;
+}
+
+fieldset {
+  border: none;
+}
+fieldset label {
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.25rem;
+}
+
+#sign-up {
+  background-color: hsl(0, 0%, 14%);
+}
+
+.background {
+  background-image: url(../imgs/background.jpg);
+  background-size: cover;
+  flex: 2;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=main.css.map */
